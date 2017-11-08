@@ -1,0 +1,391 @@
+>>> for i in range(readline.get_current_history_length()):
+...     print readline.get_history_item(i + 1)
+... 
+import visuspy
+from visuspy import *
+dataset=Dataset_loadDataset("http://atlantis.sci.utah.edu/mod_visus?dataset=MM336-001")
+dataset=Dataset_loadDataset("http://atlantis.sci.utah.edu/mod_visus?dataset=2kbit1")
+visuspy.
+dataset=Dataset_loadDataset("file:///data/idx/marmoset_neurons.idx")
+dataset
+box=dataset.get().getBox()
+box=dataset.get()
+box.__str__()
+dataset.__str__()
+dataset.this
+dataset.get()
+foo=dataset.get()
+foo
+type
+type(foo)
+dataset=Dataset_loadDataset("/data/idx/marmoset_neurons.idx")
+type(dataset)
+box=dataset.get()
+box
+type(box)
+dataset
+dataset.__repr__()
+box=dataset.get().getBox()
+dataset=Dataset_loadDataset("/data/idx/marmoset_neurons.idx")
+ds=dataset.get()
+ds
+ds.__str__()
+dataset=Dataset_loadDataset("/usr/sci/cedmav/data/angelucci-2photon/2012-11-26/MM336_idx/MM336-001.idx")
+ds=dataset.get()
+ds.__str__()
+quit()
+import visuspy
+visuspy.__file__
+quit()
+import visuspy
+visuspy.__file__
+quit()
+import visuspy
+quit()
+from visuspy import *
+quit()
+import visuspy
+visuspy.__file__
+quit()
+import visuspy
+visuspy.__file__
+quit()
+import visuspy
+visupy.__file__
+visuspy.__file__
+quit()
+import visuspy
+quit()
+import visuspy
+visuspy.__file__
+quit()
+import visuspy
+visuspy.__file__
+quit()
+import visuspy
+quit()
+import visuspy
+quit()
+import visuspy
+quit()
+import visuspy
+quit()
+import numpy
+import numpy.core.multiarray
+numpy.__version__
+quit()
+print foo
+print "foo"
+print("foo")
+quit()
+import numpy
+quit()
+import numpy
+quit()
+import visuspy
+visuspy.__file__
+quit()
+import visuspy
+visuspy.__file__
+quit()
+import visuspy
+quit()
+import visuspy
+quit()
+import visuspy
+quit()
+import yA31Tools.py
+import ./yA31Tools.py
+import ./yA31Tools
+import yA31Tools
+he=HistExplorer("/foo/bar")
+he=yA31Tools.HistExplorer("/foo/bar")
+quit()
+import vtk
+import yA31Tools
+he=yA31Tools.HistExplorer("/usr/sci/cedmav/data/asteroid/oceans11.lanl.gov/deepwaterimpact/yA31/300x300x300-AllScalars_resolution")
+he
+he.my_idx_max
+he.getDimensions()
+he.my_dims
+he.my_step
+len(he.Filenames)
+he.getVars()
+he
+he.my_vars
+he.getAllValues()
+he.setVar('grd')
+he.getAllValues()
+he.getSpacialCoord([0,0,0])
+he.getSpacialCoord([300,299,299])
+he.getSpacialCoord([310,299,299])
+he.getSpacialCoord([299,299,299])
+he.getSpacialCoord([300,300,300])
+he.getSpacialCoord([300,300,301])
+he.getSpacialCoord([300,301,300])
+he.getSpacialCoord([300,300,300])
+he.getSpacialCoord([299,299,299])
+he.getSpacialCoord([300,299,299])
+he.getSpacialCoord([299,300,299])
+he.getSpacialCoord([299,299,300])
+he.getSpacialCoord([299,299,299])
+from vtk import vtkXMLUnstructuredGridReader
+rdr=vtkXMLUnstructuredGridReader(
+rdr=vtkXMLUnstructuredGridReader()
+;
+rdr=vtkXMLUnstructuredGridReader()
+rdr.SetFileName("/usr/sci/cedmav/data/asteroid/pv_insitu_39966/pv_insitu_39966_0_0.vtu")
+rdr.Update()
+rdr.GetNumberOfPoints()
+rdr.GetOutput()
+output=rdr.GetOutput()
+output.GetPoint(0)
+output.GetPoint(1)
+output.GetPoint(26000)
+output.GetPoint(260000)
+output.GetPoint(260952)
+output.GetPoint(260953)
+output.GetPoint(260951)
+output.GetPoint(260950)
+output.GetNumberOfElements()
+output.GetNumberOfElements(1)
+output.GetNumberOfElements(2)
+output.GetNumberOfElements(0)
+output.GetNumberOfCells()
+output.GetNamedFieldInformation()
+output.GetBounds()
+output.GetPointData()
+pdata=output.GetPointData()
+pdata.GetNumberOfArrays()
+pdata.GetNumberOfComponents(
+pdata.GetNumberOfComponents()
+pdata.GetNumberOfTuples()
+pdata.SCALARS
+pdata.Update()
+output.GetPoints()
+points=output.GetPoints()
+points.GetNumberOfPoints()
+points.Get
+pdata=points.GetData()
+pdata.GetNumberOfComponents()
+pdata.GetName()
+pdata.GetRange()
+pdata.GetFiniteRange()
+pdata.GetInformation()
+info=pdata.GetInformation()
+info.Length()
+info.Length(1)
+info.GetDebug()
+info.GetNumberOfKeys()
+info.GetKey(1)
+pdata.GetNumberOfComponentsMaxValue()
+pdata.GetNumberOfComponentsMinValue()
+pdata.GetValue()
+pdata.GetValue(1)
+pdata.GetValue(0)
+pdata.GetValue(2)
+pdata.GetValue(3)
+pdata.GetValueRange()
+pdata.GetNumberOfTuples()
+pdata.GetNumberOfValues()
+pdata.GetNumberOfComponents()
+pdata.GetProminentComponentValues()
+pdata.GetProminentComponentValues(0,1)
+pdata.GetName()
+pdata.GetCommand()
+pdata.GetCommand(1)
+pdata.GetCommand(0)
+pdata.GetComponent(1)
+pdata.GetComponent(1,2)
+pdata.GetComponent(1,10)
+pdata.GetComponent(1,10,2)
+pdata.GetComponentName()
+pdata.GetComponentName(1)
+pdata.GetComponentName(0)
+pdata.GetDataSize)
+pdata.GetDataSize()
+for p in pdata.GetData(): p
+pdata.GetData()
+output
+pdata.GetRange()
+pdata.GetNumberOfValues()
+for p in pdata.GetNumberOfValues(): print p
+for p in enumerate(pdata.GetNumberOfValues()): print p
+for p in enumerate(range(pdata.GetNumberOfValues())): print p
+pdata.GetTuple(0)
+pdata.GetTuple(1)
+pdata.GetTuple(2)
+pdata.GetTuple(3)
+pdata.GetTuple(4)
+pdata.GetValue(0)
+pdata.GetValue(1)
+pdata.GetValue(2)
+pdata.GetValue(3)
+pdata.GetValue(4)
+pdata.GetValue(5)
+pdata.GetValue(6)
+pdata.GetValue(8)
+pdata.GetValue(7)
+for p in enumerate(range(pdata.GetNumberOfValues())): print pdata.GetValue(p)
+for p in range(pdata.GetNumberOfValues()): print pdata.GetValue(p)
+pdata.GetRange()
+xmin=pdata.GetRange()[1]
+xmin=y
+zmin=ymin=xmin=pdata.GetRange()[1]
+zmax=ymax=xmax=pdata.GetRange()[0]
+zmax
+for p in range(pdata.GetNumberOfValues()):
+  v=pdata.GetValue(p)
+  xmin=min(xmin,v)
+  xmax=max(xmax,v)
+xmin
+xmax
+range(
+_
+)
+history
+import readline
+for i in range(readline.get_current_history_length()):
+    print readline.get_history_item(i + 1)
+
+>>> zmin=ymin=xmin=pdata.GetRange()[1]
+>>> zmax=ymax=xmax=pdata.GetRange()[0]
+>>> pdata.GetNumberOfTuples()
+260952L
+for p in range(pdata.GetNumberOfTuples()):
+  X=pdata.GetTuple3(p)
+  xmin=min(xmin,X[0])
+  xmax=max(xmax,X[0])
+  ymin=min(ymin,X[1])
+  ymax=max(ymax,X[1])
+  zmin=min(zmin,X[2])
+  zmax=max(zmax,X[2])
+
+>>> xmin,ymin,zmin
+(-2300000.0, -500000.0, -1200000.0)
+>>> xmax,ymax,zmax
+(2300000.0, -420000.0, -1160000.0)
+
+
+
+>>> pts=vtk.vtkIdList()
+>>> output.GetCellPoints(0,pts)
+>>> for i in range(pts.GetNumberOfIds()):
+...   print i,pdata.GetTuple3(pts.GetId(i))
+...
+0 (-2300000.0, -500000.0, -1200000.0)
+1 (-2297500.0, -500000.0, -1200000.0)
+2 (-2297500.0, -500000.0, -1197500.0)
+3 (-2300000.0, -500000.0, -1197500.0)
+4 (-2300000.0, -497500.0, -1200000.0)
+5 (-2297500.0, -497500.0, -1200000.0)
+6 (-2297500.0, -497500.0, -1197500.0)
+7 (-2300000.0, -497500.0, -1197500.0)
+>>> output.GetCellPoints(10000,pts)
+>>> for i in range(pts.GetNumberOfIds()):
+...   print i,pdata.GetTuple3(pts.GetId(i))
+...
+0 (-2210000.0, -475000.0, -1180000.0)
+1 (-2207500.0, -475000.0, -1180000.0)
+2 (-2207500.0, -475000.0, -1177500.0)
+3 (-2210000.0, -475000.0, -1177500.0)
+4 (-2210000.0, -472500.0, -1180000.0)
+5 (-2207500.0, -472500.0, -1180000.0)
+6 (-2207500.0, -472500.0, -1177500.0)
+7 (-2210000.0, -472500.0, -1177500.0)
+
+
+celldata=output.GetCellData()
+arr=celldata.GetArray('grd')
+arr.GetValue(0)
+4.0
+arr.GetValue(10000)
+4.0
+
+-> so distance between level 4 points is 2500
+
+
+>>> n1=n2=n3=n4=0
+>>> for i in range(arr.GetNumberOfValues()):
+...   val=arr.GetValue(i)
+...   if val==1: n1+=1
+...   elif val==2: n2+=1
+...   elif val==3: n3+=1
+...   elif val==4: n4+=1
+...   else: print "unexpected val: ",val
+>>> n1
+10
+>>> n2
+2949
+>>> n3
+24134
+>>> n4
+194032
+
+
+output.GetCellPoints(10000,pts)
+for i in range(pts.GetNumberOfIds()):
+  print i,pdata.GetTuple3(pts.GetId(i))
+0 (-1520000.0, -440000.0, -1200000.0)
+1 (-1500000.0, -440000.0, -1200000.0)
+2 (-1500000.0, -440000.0, -1180000.0)
+3 (-1520000.0, -440000.0, -1180000.0)
+4 (-1520000.0, -420000.0, -1200000.0)
+5 (-1500000.0, -420000.0, -1200000.0)
+6 (-1500000.0, -420000.0, -1180000.0)
+7 (-1520000.0, -420000.0, -1180000.0)
+
+-> distance between level 1 points is 20000 (8*2500, as expected)
+...we can infer that level 2 pts are 5000 and level 3 pts are 10000
+
+Also... from my other program:
+**** Final Range:
+-2300000.0 -500000.0 -1200000.0
+2300000.0 2300000.0 1200000.0
+
+10 float32 fields (not includeing 'grd' which is just the amr level)
+
+resolution:
+4: 1840 x 1120 x 960  -> 1978368000 cells (~2000M), 79134720000 for all 10 fields (~80B)
+3: 920 x 560 x 480    -> 247296000  cells (~250M)
+2: 460 x 280 x 240    -> 30912000   cells (~30M)
+1: 230 x 140 x 120    -> 3864000    cells (~4M)
+
+So we could write everything highest resolution for about 80G/timestep
+37668126720000 (~38T)
+
+But the actual number of lvl 4 cells is quite small, and spatially they are very clustered.
+
+For (poor) comparison, the 500^3 data requires about 50G per timestep (~2.4T).
+
+
+
+**** Final Counts:
+2322243 6414342 19844298 197976560
+
+-------------------------------------------------------------------------------
+Sunday, November 05, 2017
+
+Now to convert this shit...
+
+amr level 4 cell count:
+197976560 out of 
+1978368000 possible
+...about 10%
+
+That would still be around 200M writes if performed cell by cell.
+Likely very slow, but I guess it's a start.
+
+NOTE: I think I missed one of the blocks in the original sweep. Here are the updated counts:
+**** Final Counts: [2355746, 6475664, 19975874, 197976560]
+**** Final Range: [-2300000.0, -500000.0, -1200000.0] to [2300000.0, 2300000.0, 1200000.0]
+
+-------------------------------------------------------------------------------
+Monday, November 06, 2017
+
+going to convert in parallel using gunship
+all ten fields simultaneously
+need to address default value (what gets written), particularly for some fields that have 0 in their actual range
+need to figure out how to get viewer to replicate coarse resolution data
+may need some way to indicate that data doesn't exist (or will blocking structure thwart that?), maybe use a mask?
+try to reuse queries and see if it improves data conversion speed
